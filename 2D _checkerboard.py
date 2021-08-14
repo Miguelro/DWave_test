@@ -11,7 +11,7 @@ results = exactsolver.sample(bqm)
 
 #print the results
 print(results)
-
+#print the energy of a particular state
 print(bqm.energy({0: 1, 1: -1, 2:-1,3:-1}))
 print(bqm.energy({0: 1, 1: -1, 2:-1,3:1}))
 
